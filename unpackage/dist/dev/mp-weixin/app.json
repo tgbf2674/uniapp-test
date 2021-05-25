@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/cart/cart",
+    "pages/user/user"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#B2B2B2",
+    "selectedColor": "#c69c6d",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/home.png",
+        "selectedIconPath": "static/img/home1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/img/cart.png",
+        "selectedIconPath": "static/img/cart1.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/img/user.png",
+        "selectedIconPath": "static/img/user1.png",
+        "text": "用户"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
